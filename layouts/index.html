@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+    <!-- start Mixpanel --><script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+mixpanel.init("267c0dc6f1ac0f79dafbf3e0152fd2b4");</script><!-- end Mixpanel -->
+
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Harbur" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico"/>
+
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<!--[if lt IE 9]>
+		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+
+	<link rel="stylesheet" href="css/colors.css" type="text/css" />
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="//widget.uservoice.com/2XfOGKRPbAnuMF0bPQArg.js"></script>
+
+	<!-- Document Title
+	============================================= -->
+	<title>Harbur - Simplifying Container Delivery</title>
+
+    <!-- Google Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-11756963-4', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- UserVoice -->
+    <script type='text/javascript'>
+    $(window).load(function(){
+
+    <!-- MixPanel -->
+    mixpanel.track('pageview', {
+        'page name' : document.title,
+        'url' : window.location.pathname,
+        'origin' : window.location.origin
+    });
+
+    //
+    // UserVoice Javascript SDK developer documentation:
+    // https://www.uservoice.com/o/javascript-sdk
+    //
+
+    // Set colors
+    UserVoice.push(['set', {
+      accent_color: '#448dd6',
+      trigger_color: 'white',
+      trigger_background_color: '#6aba2e'
+    }]);
+
+    // Identify the user and pass traits
+    // To enable, replace sample data with actual user traits and uncomment the line
+    UserVoice.push(['identify', {
+      //email:      'john.doe@example.com', // User’s email address
+      //name:       'John Doe', // User’s real name
+      //created_at: 1364406966, // Unix timestamp for the date the user signed up
+      //id:         123, // Optional: Unique id of the user (if set, this should not change)
+      //type:       'Owner', // Optional: segment your users by type
+      //account: {
+      //  id:           123, // Optional: associate multiple users with a single account
+      //  name:         'Acme, Co.', // Account name
+      //  created_at:   1364406966, // Unix timestamp for the date the account was created
+      //  monthly_rate: 9.99, // Decimal; monthly rate of the account
+      //  ltv:          1495.00, // Decimal; lifetime value of the account
+      //  plan:         'Enhanced' // Plan name for the account
+      //}
+    }]);
+
+    // Add default trigger to the bottom-right corner of the window:
+    UserVoice.push(['addTrigger', { mode: 'contact', trigger_position: 'bottom-left' }]);
+
+    // Or, use your own custom trigger:
+    //UserVoice.push(['addTrigger', '#id', { mode: 'contact' }]);
+
+    // Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
+    UserVoice.push(['autoprompt', {}]);
+  });
+    </script>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="dark">
+
+			<div id="header-wrap">
+
+				<div class="container clearfix">
+
+					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+					<!-- Logo
+					============================================= -->
+					<div id="logo">
+						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+					</div><!-- #logo end -->
+
+					<!-- Primary Navigation
+					============================================= -->
+					<nav id="primary-menu" class="style-4">
+
+						<ul>
+							<li><a href="#" data-scrollto="#header" ><div>Home</div></a></li>
+							<li><a href="#" data-scrollto="#services"><div>Services</div></a></li>
+							<li><a href="#" data-scrollto="#widget-subscribe-form-result"><div>Newsletter</div></a></li>
+							<li><a href="#" data-scrollto="#demo"><div>Demo</div></a></li>
+							<li><a href="https://blog.harbur.io"><div>Blog</div></a></li>
+						</ul>
+
+
+					</nav><!-- #primary-menu end -->
+
+				</div>
+
+			</div>
+
+		</header><!-- #header end -->
+
+		<section id="slider" class="slider-parallax swiper_wrapper full-screen clearfix">
+
+			<div class="swiper-container swiper-parent">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide dark">
+						<div class="container clearfix">
+							<div class="slider-caption slider-caption-center">
+								<h1 data-caption-animate="fadeInUp">DevOps Innovation</h1>
+								<h4 data-caption-animate="fadeInUp" data-caption-delay="200">We help modernize enterprise development workflows</br>focusing on <span class="t-rotate color">containers</span> as first-class citizens</h4>
+
+								<a href="#" data-scrollto="#services" class="button button-reveal button-xlarge button-rounded tright"><i class="icon-angle-right"></i><span>Check our Services</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script>
+				jQuery(document).ready(function($){
+					var swiperSlider = new Swiper('.swiper-parent',{
+						paginationClickable: false,
+						slidesPerView: 1,
+						grabCursor: true,
+						onSwiperCreated: function(swiper){
+							$('[data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var toAnimateDelay = $(this).attr('data-caption-delay');
+								var toAnimateDelayTime = 0;
+								if( toAnimateDelay ) { toAnimateDelayTime = Number( toAnimateDelay ) + 750; } else { toAnimateDelayTime = 750; }
+								if( !$toAnimateElement.hasClass('animated') ) {
+									$toAnimateElement.addClass('not-animated');
+									var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+									setTimeout(function() {
+										$toAnimateElement.removeClass('not-animated').addClass( elementAnimation + ' animated');
+									}, toAnimateDelayTime);
+								}
+							});
+						},
+						onSlideChangeStart: function(swiper){
+							$('#slide-number-current').html(swiper.activeIndex + 1);
+							$('[data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+								$toAnimateElement.removeClass('animated').removeClass(elementAnimation).addClass('not-animated');
+							});
+						},
+						onSlideChangeEnd: function(swiper){
+							$('#slider .swiper-slide').each(function(){
+								if($(this).find('video').length > 0) { $(this).find('video').get(0).pause(); }
+							});
+							$('#slider .swiper-slide:not(".swiper-slide-active")').each(function(){
+								if($(this).find('video').length > 0) {
+									if($(this).find('video').get(0).currentTime != 0 ) $(this).find('video').get(0).currentTime = 0;
+								}
+							});
+							if( $('#slider .swiper-slide.swiper-slide-active').find('video').length > 0 ) { $('#slider .swiper-slide.swiper-slide-active').find('video').get(0).play(); }
+
+							$('#slider .swiper-slide.swiper-slide-active [data-caption-animate]').each(function(){
+								var $toAnimateElement = $(this);
+								var toAnimateDelay = $(this).attr('data-caption-delay');
+								var toAnimateDelayTime = 0;
+								if( toAnimateDelay ) { toAnimateDelayTime = Number( toAnimateDelay ) + 300; } else { toAnimateDelayTime = 300; }
+								if( !$toAnimateElement.hasClass('animated') ) {
+									$toAnimateElement.addClass('not-animated');
+									var elementAnimation = $toAnimateElement.attr('data-caption-animate');
+									setTimeout(function() {
+										$toAnimateElement.removeClass('not-animated').addClass( elementAnimation + ' animated');
+									}, toAnimateDelayTime);
+								}
+							});
+						}
+					});
+
+					$('#slider-arrow-left').on('click', function(e){
+						e.preventDefault();
+						swiperSlider.swipePrev();
+					});
+
+					$('#slider-arrow-right').on('click', function(e){
+						e.preventDefault();
+						swiperSlider.swipeNext();
+					});
+
+					$('#slide-number-current').html(swiperSlider.activeIndex + 1);
+					$('#slide-number-total').html(swiperSlider.slides.length);
+				});
+			</script>
+
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+			<div id="services" class="container clearfix">
+                    <div class="center nobottomborder nobottommargin topmargin-sm">
+                        <h2>What We Do</h2>
+                    </div>
+
+                    <div class="col_one_third nobottommargin">
+                        <div class=" fancy-title nobottomborder title-bottom-border">
+                            <h4>Continuous Delivery <span>Pipeline</span></h4>
+                        </div>
+                        <p>We provide a universal delivery pipeline process, independent of your CI/CD tool, cloud or behind-firewall infrastructure, or programming language of your application with the help of docker and our open-sourced build tool <a href="https://github.com/harbur/captain">captain</a></p>
+                    </div>
+
+                    <div class="col_one_third nobottommargin">
+                        <div class="fancy-title nobottomborder title-bottom-border">
+                            <h4>Service <span>Containerization</span></h4>
+                        </div>
+                        <p>We help re-design and modernize existing legacy solutions to cluster of containers, or help design from scratch container-based microservices infrastructure. Design with health-checks, reactive healing and elastic scaling in mind.</p>
+                    </div>
+
+                    <div class="col_one_third nobottommargin col_last">
+                        <div class="fancy-title nobottomborder title-bottom-border">
+                            <h4>Docker <span>Workshops</span></h4>
+                        </div>
+                        <p>We provide hands-on training on-site to the team focused either on development workflow or infrastructure aspects. The training can be from Docker basics to deployment on Production scale.</p>
+                    </div>
+
+                </div>
+
+<div class="section nobottommargin">
+	<div class="input-group divcenter">
+		<h4>Subscribe to Our Newsletter</h4>
+	</div>
+	<div class="input-group divcenter"><p>and get the latest curated news about docker ecosystem</p></div>
+
+<form id="subscription-form" action="//harbur.us7.list-manage.com/subscribe/post?u=bcd4f171f7963f32bfc690dcc&amp;id=0e09615c1f" method="post" role="form">
+	<div id="subscription-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Done! Check your email inbox to confirm your subscription."></div>
+	<div class="input-group input-group-lg divcenter" style="max-width:600px;">
+		<span class="input-group-addon"><i class="icon-email2"></i></span>
+  	<input type="email" placeholder="Enter your Email" name="EMAIL" id="mce-EMAIL" class="form-control required email input-lg" aria-required="true">
+		<span class="input-group-btn">
+			<button id="mailchimp-submit" class="btn btn-success" type="submit">Subscribe</button>
+		</span>
+	</div>
+</form>
+
+<script type="text/javascript">
+	$("#subscription-form").validate({
+		submitHandler: function(form) {
+			$(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
+			$(form).ajaxSubmit({
+				url: "//harbur.us7.list-manage.com/subscribe/post-json?u=bcd4f171f7963f32bfc690dcc&amp;id=0e09615c1f",
+				dataType: 'jsonp',
+				jsonp: 'c',
+				success: function() {
+					$(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
+					$(form).find('.form-control').val('');
+					SEMICOLON.widget.notifications($('#subscription-form-result'));
+				}
+			});
+		}
+	});
+</script>
+
+<!-- DEMO FORM -->
+<div id="demo" class="clearfix input-group topmargin-lg divcenter col_one_third"  data-animate="fadeInUp">
+	<h4>Get in touch with Harbur for a demonstration</h4>
+	<div id="contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
+	<form class="nobottommargin" id="template-contactform" name="template-contactform" action="//formspree.io/contact@harbur.io"
+      method="POST" novalidate="novalidate">
+		<div class="form-process"></div>
+		<div class="col_full">
+			<input type="text" placeholder="Your Name" name="name" value="" class="sm-form-control">
+		</div>
+		<div class="col_full">
+			<input type="text" placeholder="Company Name" name="company" value="" class="sm-form-control">
+		</div>
+		<div class="col_full">
+			<input type="email" placeholder="Email address *" name="_replyto" value="" class="required email sm-form-control" aria-required="true">
+		</div>
+		<div class="col_full">
+			<input type="text" placeholder="Phone" name="phone" value="" class="sm-form-control">
+		</div>
+		<div class="clear"></div>
+		<div class="col_full hidden">
+			<input type="text" name="_gotcha" value="">
+			<input type="hidden" name="_subject" value="Hello from Harbur!" />
+		</div>
+		<div class="col_full">
+			<button class="button button-reveal button-xlarge button-rounded btn-block" type="submit" id="template-contactform-submit" name="submit" value="submit">Get a Demonstration</button>
+		</div>
+	</form>
+
+	<script type="text/javascript">
+		$("#template-contactform").validate({
+			submitHandler: function(form) {
+				$('.form-process').fadeIn();
+				$(form).ajaxSubmit({
+					url: "//formspree.io/contact@harbur.io",
+					dataType: "json",
+					target: '#contact-form-result',
+					success: function() {
+						$('.form-process').fadeOut();
+						$(form).find('.sm-form-control').val('');
+						$('#contact-form-result').attr('data-notify-msg', "We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.").html('');
+						SEMICOLON.widget.notifications($('#contact-form-result'));
+					}
+				});
+			}
+		});
+	</script>
+</div>
+</section><!-- #content end -->
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="dark">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap clearfix">
+
+					<div class="col_two_third">
+
+						<div class="col_one_third">
+
+							<div class="widget clearfix">
+
+								<img src="images/footer-widget-logo.png" alt="" class="footer-logo">
+
+								<p>We believe in <strong>Quality first</strong>, <strong>Simplicity</strong>, <strong>Transparency</strong> &amp; <strong>Innovation</strong>.</p>
+
+								<div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+									<address>
+										<strong>Headquarters:</strong><br>
+										Travessera de Gracia 294 Entlo. 1<br>
+										08025, Barcelona, Spain<br>
+									</address>
+									<!-- <abbr title="Phone Number"><strong>Phone:</strong></abbr> (91) 8547 632521<br> -->
+									<!-- <abbr title="Fax"><strong>Fax:</strong></abbr> (91) 11 4752 1433<br> -->
+									<abbr title="Email Address"><strong>Email:</strong></abbr> contact@harbur.io
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="col_one_third">
+
+							<div class="widget widget_links clearfix">
+
+								<h4>Useful Links</h4>
+
+								<ul>
+									<li><a href="http://docs.harbur.io/">Documentation</a></li>
+									<li><a href="https://blog.harbur.io/">Our Blog</a></li>
+									<li><a href="http://harbur.uservoice.com/">Feedback</a></li>
+									<li><a href="https://angel.co/harbur/jobs">We're Hiring!</a></li>
+								</ul>
+
+							</div>
+
+						</div>
+
+						<div class="col_one_third col_last">
+							<div class="widget clearfix">
+								<h4>Recent Posts</h4>
+
+								<div id="post-list-footer">
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="https://blog.harbur.io/launch-your-jenkins-docker-container/">Launch your Jenkins Docker Container at DigitalOcean in 4 steps</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>March 1st, 2015</li>
+											</ul>
+										</div>
+									</div>
+
+									<div class="spost clearfix">
+										<div class="entry-c">
+											<div class="entry-title">
+												<h4><a href="https://blog.harbur.io/new-feature-user-ssh-key/">New Feature: Login to Ships with SSH</a></h4>
+											</div>
+											<ul class="entry-meta">
+												<li>February 15th, 2015</li>
+											</ul>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col_one_third col_last">
+
+
+						<div class="widget subscribe-widget clearfix">
+							<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
+							<div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Done! Check your email inbox to confirm your subscription"></div>
+							<form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
+								<div class="input-group divcenter">
+									<span class="input-group-addon"><i class="icon-email2"></i></span>
+									<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+									<span class="input-group-btn">
+										<button class="btn btn-success" type="submit">Subscribe</button>
+									</span>
+								</div>
+							</form>
+							<script type="text/javascript">
+								$("#widget-subscribe-form").validate({
+									submitHandler: function(form) {
+										$(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
+										$(form).ajaxSubmit({
+											url: "//harbur.us7.list-manage.com/subscribe/post-json?u=bcd4f171f7963f32bfc690dcc&amp;id=0e09615c1f",
+											dataType: 'jsonp',
+											jsonp: 'c',
+											target: '#widget-subscribe-form-result',
+											success: function() {
+												$(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
+												$('#widget-subscribe-form').find('.form-control').val('');
+												SEMICOLON.widget.notifications($('#widget-subscribe-form-result'));
+											}
+										});
+									}
+								});
+							</script>
+						</div>
+
+						<div class="widget clearfix" style="margin-bottom: -20px;">
+
+							<div class="row">
+
+								<div class="col-md-6 clearfix bottommargin-sm">
+									<a href="https://www.facebook.com/harbur" class="social-icon si-dark si-colored si-facebook nobottommargin" style="margin-right: 10px;">
+										<i class="icon-facebook"></i>
+										<i class="icon-facebook"></i>
+									</a>
+									<a href="https://www.facebook.com/harbur"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
+								</div>
+								<div class="col-md-6 clearfix">
+									<a href="https://blog.harbur.io/rss/" class="social-icon si-dark si-colored si-rss nobottommargin" style="margin-right: 10px;">
+										<i class="icon-rss"></i>
+										<i class="icon-rss"></i>
+									</a>
+									<a href="https://blog.harbur.io/rss/"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div><!-- .footer-widgets-wrap end -->
+
+			</div>
+
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights">
+
+				<div class="container clearfix">
+
+					<div class="col_half">
+						Copyrights &copy; 2015 All Rights Reserved by Harbur Cloud Solutions S.L.<br>
+						<!-- <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div> -->
+					</div>
+
+					<div class="col_half col_last tright">
+						<div class="fright clearfix">
+							<a href="https://www.facebook.com/harbur" class="social-icon si-small si-borderless si-facebook">
+								<i class="icon-facebook"></i>
+								<i class="icon-facebook"></i>
+							</a>
+
+							<a href="https://twitter.com/harburio" class="social-icon si-small si-borderless si-twitter">
+								<i class="icon-twitter"></i>
+								<i class="icon-twitter"></i>
+							</a>
+
+							<a href="https://plus.google.com/+HarburIoCloud" class="social-icon si-small si-borderless si-gplus">
+								<i class="icon-gplus"></i>
+								<i class="icon-gplus"></i>
+							</a>
+
+							<a href="https://github.com/harbur" class="social-icon si-small si-borderless si-github">
+								<i class="icon-github"></i>
+								<i class="icon-github"></i>
+							</a>
+
+							<a href="https://vimeo.com/user42777226" class="social-icon si-small si-borderless si-vimeo">
+								<i class="icon-vimeo"></i>
+								<i class="icon-vimeo"></i>
+							</a>
+
+<!-- 							<a href="#" class="social-icon si-small si-borderless si-linkedin">
+								<i class="icon-linkedin"></i>
+								<i class="icon-linkedin"></i>
+							</a> -->
+						</div>
+
+						<!-- <div class="clear"></div> -->
+
+						<!-- <i class="icon-envelope2"></i> contact@harbur.io -->
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>
