@@ -1,3 +1,4 @@
+theme = "canvas"
 baseurl = "https://www.harbur.io/"
 languageCode = "en-us"
 title = "Harbur - Simplifying Container Delivery"
