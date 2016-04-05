@@ -1,5 +1,4 @@
 +++
 date = "2016-04-05T08:48:07+02:00"
 title = "work"
-template = "work"
 +++
