@@ -1,34 +1,16 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
-
-	{{ partial "head.html" . }}
-
+{{ partial "head.html" . }}
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
 	<div id="wrapper" class="clearfix">
-
 		{{ partial "header.html" . }}
 		{{ partial "slider.html" . }}
-
 		<section id="content">
 			{{ partial "services.html" . }}
 			{{ partial "subscribe.html" . }}
 			{{ partial "demo.html" . }}
 		</section>
-
 		{{ partial "footer.html" . }}
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script type="text/javascript" src="js/functions.js"></script>
-
+	</div>
 </body>
 </html>
