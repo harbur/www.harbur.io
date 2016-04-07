@@ -18,10 +18,21 @@ So the connecting dots are the following:
 * [CodeShip](https://codeship.com/) is connected to [BitBucket](https://bitbucket.org/) using the `harbur_ci` account to read repositories.
 * [CodeShip](https://codeship.com/) is connected to  [Amazon](http://aws.amazon.com/) using the `codeship` account to sync the S3 Bucket `www.harbur.io`.
 
+## Manually publishing Hugo blogs to S3
+
+In order to push the hugo content directly to S3 from CLI, use the following command ('s3cmd' should be installed and configured properly):
+
+```
+s3cmd put -P --recursive public/ s3://www.harbur.io
+```
+
 ## Automatically publishing Hugo blogs to S3
+
 The configuration is inspired by https://loads.pickle.me.uk/2015/07/25/hugo-s3-hosting/
 
+
 ##
+
 The process traditionally is:
 
 create a new blog article, edit it some, save.
