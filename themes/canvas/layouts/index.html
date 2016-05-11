@@ -6,10 +6,14 @@
 		{{ partial "header.html" . }}
 		{{ partial "intro.html" . }}
 		<section id="content">
-            {{ partial "services.html" . }}
-			{{ partial "work.html" . }}
-            {{ partial "subscribe.html" . }}
-            {{ partial "demo.html" . }}
+            <div class="content-wrap">
+                {{ partial "services.html" . }}
+                {{ partial "hireus.html" . }}
+                {{ partial "clients.html" . }}
+                {{ partial "hireus.html" . }}
+                {{ partial "technologies.html" . }}
+                {{ partial "community.html" . }}
+            </div>
 		</section>
 		{{ partial "footer.html" . }}
 	</div>
