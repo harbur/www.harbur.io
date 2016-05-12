@@ -1,0 +1,47 @@
+<script type="text/javascript" src="https://maps.google.com/maps/api/js"></script>
+<script type="text/javascript" src="/js/jquery.gmap.js"></script>
+<script type="text/javascript">
+
+    $('#google-map').gMap({
+
+        address: 'Travessera de Gracia 294, Barcelona, Spain',
+        maptype: 'ROADMAP',
+        zoom: 14,
+        markers: [
+            {
+                address: "Travessera de Gracia 294, Barcelona, Spain",
+                html: $("address").html(),
+                icon: {
+                    image: "/images/icons/map-icon-red.png",
+                    iconsize: [32, 39],
+                    iconanchor: [13,39]
+                }
+            }
+        ],
+        doubleclickzoom: false,
+        controls: {
+            disableDefaultUI: true,
+            scrollwheel: false,
+            draggable: false,
+        }
+    });
+
+</script>
+<script type="text/javascript">
+    $("#template-contactform").validate({
+        submitHandler: function(form) {
+            $('.form-process').fadeIn();
+            $(form).ajaxSubmit({
+                url: "//formspree.io/contact@harbur.io",
+                dataType: "json",
+                target: '#contact-form-result',
+                success: function() {
+                    $('.form-process').fadeOut();
+                    $(form).find('.sm-form-control').val('');
+                    $('#contact-form-result').attr('data-notify-msg', "We have <strong>successfully</strong> received your Message and will get Back to you as soon as possible.").html('');
+                    SEMICOLON.widget.notifications($('#contact-form-result'));
+                }
+            });
+        }
+    });
+</script>
