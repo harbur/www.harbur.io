@@ -5260,7 +5260,10 @@ body:not(.device-touch) .entry-link {
 /* Individual Post
 -----------------------------------------------------------------*/
 
-.ipost .entry-image img { border-radius: 0; }
+.ipost .entry-image img {
+	border-radius: 5px;
+	max-height: 180px;
+}
 
 .ipost .entry-title h3,
 .ipost .entry-title h4 {
