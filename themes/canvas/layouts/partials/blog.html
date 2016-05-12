@@ -46,9 +46,7 @@
         template.content.querySelector('.entry-meta li').textContent = pubDate;
         template.content.querySelector('.entry-content').innerHTML = description;
 
-        console.log(index);
         if (index % 3 == 2) {
-            console.log("entro!");
             template.content.querySelector('.col_one_third').classList.add('col_last');
         }
 
