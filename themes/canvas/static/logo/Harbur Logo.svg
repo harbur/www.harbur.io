@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Harbur Logo.eps"
+   inkscape:export-filename="/home/spiddy/src/app.alm.io/faros.jpg.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3859">
+      <stop
+         style="stop-color:#109be0;stop-opacity:1;"
+         offset="0"
+         id="stop3861" />
+      <stop
+         id="stop4442"
+         offset="1"
+         style="stop-color:#0077c4;stop-opacity:1;" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3859"
+       id="radialGradient4452"
+       cx="292.94424"
+       cy="490.71738"
+       fx="292.94424"
+       fy="490.71738"
+       r="34.345188"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6140423"
+     inkscape:cx="372.04724"
+     inkscape:cy="410.45426"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1600"
+     inkscape:window-height="876"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3959" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:143.96092224px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:0%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#0179c5;fill-opacity:0.92941176;stroke:none;display:inline;font-family:Merienda;-inkscape-font-specification:Merienda"
+       x="209.23087"
+       y="193.03313"
+       id="text3961"
+       sodipodi:linespacing="0%"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/LogoText/Harbur-1676x340.png"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725"
+       transform="scale(1.0514701,0.95104939)"><tspan
+         sodipodi:role="line"
+         id="tspan3963"
+         x="209.23087"
+         y="193.03313"
+         style="font-size:108.18321228px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;letter-spacing:0.33328012px;word-spacing:19.98347282px;fill:#0179c5;fill-opacity:0.92941176;font-family:Merienda;-inkscape-font-specification:Merienda">Harbur<tspan
+   style="fill:#808000"
+   id="tspan3028" /></tspan></text>
+    <path
+       style="fill:#0179c5;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       d="m 87.051555,160.42634 c -9.392541,0.95552 -18.24285,10.81243 -21.66501,15.56344 -0.09672,0.16676 0.01016,1.82455 0.240472,4.05725 0.757237,-1.04798 1.7629,-2.34727 2.988656,-3.73524 1.243124,-1.40763 2.698557,-2.90643 4.316976,-4.35776 0.809221,-0.72568 1.659164,-1.44643 2.542082,-2.1252 0.882925,-0.67884 1.79354,-1.31715 2.73676,-1.91055 0.943219,-0.59344 1.918421,-1.14051 2.908501,-1.61002 0.990117,-0.46955 1.999487,-0.87357 3.023032,-1.18069 1.023582,-0.3071 2.059567,-0.51637 3.103194,-0.62252 1.043606,-0.10621 2.087264,-0.11188 3.137519,0.0214 1.050256,0.1333 2.105516,0.40446 3.148995,0.81575 1.043465,0.41129 2.079895,0.9681 3.103165,1.69589 1.023293,0.72774 2.033345,1.62203 3.023025,2.70479 0.989688,1.08282 1.954418,2.34475 2.897058,3.82109 0.94268,1.47635 1.86598,3.17921 2.74821,5.08766 0.88223,1.9084 1.73371,4.03956 2.54208,6.41857 0.56413,-1.16304 1.16052,-2.20343 1.7978,-3.11268 0.63726,-0.90928 1.31296,-1.69172 2.01534,-2.36137 0.70238,-0.66966 1.42767,-1.23016 2.1871,-1.67443 0.75946,-0.44421 1.55042,-0.77591 2.35888,-1.00891 0.80848,-0.23301 1.63538,-0.37198 2.48485,-0.40786 0.84943,-0.0359 1.71694,0.0248 2.59933,0.17172 0.88239,0.14695 1.78365,0.39271 2.69096,0.70841 0.90728,0.3157 1.82403,0.71042 2.74818,1.18067 0.92418,0.47025 1.86104,1.02086 2.79403,1.63149 0.93299,0.61053 1.86022,1.28106 2.794,2.01787 1.86753,1.47358 3.73122,3.19438 5.55365,5.08764 1.82242,1.89332 3.61168,3.96135 5.32465,6.16098 1.71296,2.19966 3.3503,4.51978 4.8895,6.91233 0.12702,-1.55465 0.35363,-3.25752 0.69852,-5.04472 0.34484,-1.78721 0.80561,-3.66225 1.40847,-5.55988 0.30144,-0.9488 0.63429,-1.90152 1.00768,-2.8551 0.37337,-0.95356 0.78631,-1.91204 1.23669,-2.85507 0.45038,-0.94306 0.94474,-1.87343 1.47716,-2.79069 0.53241,-0.91725 1.10964,-1.80715 1.72907,-2.68336 0.61945,-0.87622 1.28097,-1.73464 1.99244,-2.55454 0.71148,-0.81991 1.47022,-1.61304 2.27873,-2.36135 0.80852,-0.74835 1.66588,-1.44225 2.57642,-2.10376 0.91058,-0.66152 1.868,-1.28671 2.88562,-1.84614 1.01765,-0.55942 2.09945,-1.06061 3.22915,-1.50267 1.1297,-0.4421 2.31442,-0.82827 3.56121,-1.13774 1.24677,-0.3095 2.54732,-0.5468 3.91619,-0.70843 1.36887,-0.16162 2.79808,-0.23763 4.29407,-0.23612 0.0924,0.37049 0.15267,0.77939 0.21757,1.18066 0.0486,-1.95623 -0.0284,-3.78754 -0.40079,-5.28084 -23.93558,-0.0242 -31.28671,21.8239 -32.30283,34.26107 -12.31359,-19.14036 -31.21221,-33.93609 -40.23826,-15.32728 -5.6587,-16.65306 -13.294781,-21.28695 -20.600073,-20.54378 z"
+       id="path3028-6-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/Logo/Harbur-340x340.png"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725" />
+    <path
+       style="fill:#4d4d4d;stroke:none;display:inline"
+       d="m 110.10189,170.98795 c 2.7654,-2.06082 14.32075,-4.1707 23.04489,3.43468 l -1e-5,-30.91223 c 1e-5,10.30406 -23.04488,6.86938 -23.04488,17.17345 z"
+       id="path3941-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/Logo/Harbur-340x340.png"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725" />
+    <path
+       style="fill:#4d4d4d;stroke:none;display:inline"
+       d="m 110.10189,150.37978 c -2e-5,-10.30407 23.04488,-6.86938 23.04489,-17.17347 l 0,-10.30407 c 0,10.30407 -23.04491,6.81547 -23.04491,17.17347 z"
+       id="path3943-8"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/Logo/Harbur-340x340.png"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#4d4d4d;stroke:none;display:inline"
+       d="m 114.71087,102.30291 c -1e-5,3.43469 -2.30449,6.86936 -2.30449,6.86936 l -2.30448,0 0,20.60817 c -1e-5,-10.30409 23.04488,-6.8694 23.04488,-17.17348 l 1e-5,-3.43467 -2.3045,-2e-5 c 0,0 -2.3045,-3.43467 -2.3045,-6.86938 l -13.82692,2e-5 z"
+       id="path3945-1"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/Logo/Harbur-340x340.png" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline"
+       d="m 114.71086,98.859392 c 0,-3.43469 -2.30449,-6.869379 -2.30449,-6.869379 l 9.21797,-6.869381 9.21794,6.869381 c 0,0 -2.30447,3.434689 -2.30447,6.869379 z"
+       id="path3947-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/Logo/Harbur-340x340.png"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725" />
+    <path
+       style="fill:#80bee3;fill-opacity:1;stroke:none;display:inline"
+       d="m 65.93332,107.89957 46.89751,-7.55885 0,-1.58943 -46.89751,-8.002663 z"
+       id="path3873-35"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/Logo/Harbur-340x340.png"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725" />
+    <path
+       style="fill:#80bee3;fill-opacity:1;stroke:none;display:inline"
+       d="m 178.43857,107.89957 -48.17752,-7.55885 0,-1.58943 48.17752,-8.002663 z"
+       id="path3873-3-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Color/Logo/Harbur-340x340.png"
+       inkscape:export-xdpi="265.49725"
+       inkscape:export-ydpi="265.49725" />
+    <rect
+       style="fill:#000000;fill-opacity:0.84545456;fill-rule:nonzero;stroke:none"
+       id="rect3053"
+       width="860"
+       height="432.81845"
+       x="-56.308922"
+       y="625.95294" />
+    <text
+       xml:space="preserve"
+       style="font-size:143.96092224000000215px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:0%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#4d4d4d;fill-opacity:0.92941176000000003;stroke:none;display:inline;font-family:Merienda;-inkscape-font-specification:Merienda"
+       x="209.23087"
+       y="381.013"
+       id="text3961-2"
+       sodipodi:linespacing="0%"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953"
+       transform="scale(1.0514701,0.95104939)"><tspan
+         sodipodi:role="line"
+         id="tspan3963-8"
+         x="209.23087"
+         y="381.013"
+         style="font-size:108.18321228000000644px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;letter-spacing:0.33328012000000001px;word-spacing:19.98347281999999936px;fill:#4d4d4d;fill-opacity:0.92941176000000003;font-family:Merienda;-inkscape-font-specification:Merienda">Harbur<tspan
+   style="fill:#4d4d4d"
+   id="tspan3028-7" /></tspan></text>
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       d="m 87.051556,339.20449 c -9.39255,0.95552 -18.24286,10.81243 -21.66502,15.56344 -0.0967,0.16676 0.0102,1.82455 0.24048,4.05725 0.75723,-1.04798 1.7629,-2.34727 2.98865,-3.73524 1.24313,-1.40763 2.69856,-2.90643 4.31698,-4.35776 0.80922,-0.72568 1.65916,-1.44643 2.54208,-2.1252 0.88293,-0.67884 1.79354,-1.31715 2.73676,-1.91055 0.94322,-0.59344 1.91842,-1.14051 2.9085,-1.61002 0.99012,-0.46955 1.99949,-0.87357 3.02303,-1.18069 1.02359,-0.3071 2.05957,-0.51637 3.1032,-0.62252 1.0436,-0.10621 2.08726,-0.11188 3.13752,0.0214 1.05025,0.1333 2.10551,0.40446 3.14899,0.81575 1.04347,0.41129 2.0799,0.9681 3.10317,1.69589 1.02329,0.72774 2.03334,1.62203 3.02302,2.70479 0.989694,1.08282 1.954424,2.34475 2.897064,3.82109 0.94268,1.47635 1.86598,3.17921 2.74821,5.08766 0.88223,1.9084 1.73371,4.03956 2.54208,6.41857 0.56413,-1.16304 1.16052,-2.20343 1.7978,-3.11268 0.63726,-0.90928 1.31296,-1.69172 2.01534,-2.36137 0.70238,-0.66966 1.42767,-1.23016 2.1871,-1.67443 0.75946,-0.44421 1.55042,-0.77591 2.35888,-1.00891 0.80848,-0.23301 1.63538,-0.37198 2.48485,-0.40786 0.84943,-0.0359 1.71694,0.0248 2.59933,0.17172 0.88239,0.14695 1.78365,0.39271 2.69096,0.70841 0.90728,0.3157 1.82403,0.71042 2.74818,1.18067 0.92418,0.47025 1.86104,1.02086 2.79403,1.63149 0.93299,0.61053 1.86022,1.28106 2.794,2.01787 1.86753,1.47358 3.73122,3.19438 5.55365,5.08764 1.82242,1.89332 3.61168,3.96135 5.32465,6.16098 1.71296,2.19966 3.3503,4.51978 4.8895,6.91233 0.12702,-1.55465 0.35363,-3.25752 0.69852,-5.04472 0.34484,-1.78721 0.80561,-3.66225 1.40847,-5.55988 0.30144,-0.9488 0.63429,-1.90152 1.00768,-2.8551 0.37337,-0.95356 0.78631,-1.91204 1.23669,-2.85507 0.45038,-0.94306 0.94474,-1.87343 1.47716,-2.79069 0.53241,-0.91725 1.10964,-1.80715 1.72907,-2.68336 0.61945,-0.87622 1.28097,-1.73464 1.99244,-2.55454 0.71148,-0.81991 1.47022,-1.61304 2.27873,-2.36135 0.80852,-0.74835 1.66588,-1.44225 2.57642,-2.10376 0.91058,-0.66152 1.868,-1.28671 2.88562,-1.84614 1.01765,-0.55942 2.09945,-1.06061 3.22915,-1.50267 1.1297,-0.4421 2.31442,-0.82827 3.56121,-1.13774 1.24677,-0.3095 2.54732,-0.5468 3.91619,-0.70843 1.36887,-0.16162 2.79808,-0.23763 4.29407,-0.23612 0.0924,0.37049 0.15267,0.77939 0.21757,1.18066 0.0486,-1.95623 -0.0284,-3.78754 -0.40079,-5.28084 -23.93558,-0.0242 -31.28671,21.8239 -32.30283,34.26107 -12.31359,-19.14036 -31.21221,-33.93609 -40.23826,-15.32728 -5.6587,-16.65306 -13.294784,-21.28695 -20.600074,-20.54378 z"
+       id="path3028-6-5-5"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953" />
+    <path
+       style="fill:#4d4d4d;stroke:none;display:inline"
+       d="m 110.10189,349.7661 c 2.7654,-2.06082 14.32075,-4.1707 23.04489,3.43468 l -1e-5,-30.91223 c 1e-5,10.30406 -23.04488,6.86938 -23.04488,17.17345 z"
+       id="path3941-9-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953" />
+    <path
+       style="fill:#4d4d4d;stroke:none;display:inline"
+       d="m 110.10189,329.15793 c -2e-5,-10.30407 23.04488,-6.86938 23.04489,-17.17347 l 0,-10.30407 c 0,10.30407 -23.04491,6.81547 -23.04491,17.17347 z"
+       id="path3943-8-5"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#4d4d4d;stroke:none;display:inline"
+       d="m 114.71087,281.08106 c -1e-5,3.43469 -2.30449,6.86936 -2.30449,6.86936 l -2.30448,0 0,20.60817 c -1e-5,-10.30409 23.04488,-6.8694 23.04488,-17.17348 l 1e-5,-3.43467 -2.3045,-2e-5 c 0,0 -2.3045,-3.43467 -2.3045,-6.86938 l -13.82692,2e-5 z"
+       id="path3945-1-9"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline"
+       d="m 114.71086,277.63754 c 0,-3.43469 -2.30449,-6.86938 -2.30449,-6.86938 l 9.21797,-6.86938 9.21794,6.86938 c 0,0 -2.30447,3.43469 -2.30447,6.86938 z"
+       id="path3947-2-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline"
+       d="m 65.933316,286.67772 46.897514,-7.55885 0,-1.58943 -46.897514,-8.00266 z"
+       id="path3873-35-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953" />
+    <path
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none;display:inline"
+       d="m 178.43857,286.67772 -48.17752,-7.55885 0,-1.58943 48.17752,-8.00266 z"
+       id="path3873-3-2-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/Black/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.234953"
+       inkscape:export-ydpi="31.234953" />
+    <text
+       xml:space="preserve"
+       style="font-size:143.96092224000000215px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:0%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:0.92941176000000003;stroke:none;display:inline;font-family:Merienda;-inkscape-font-specification:Merienda"
+       x="266.29382"
+       y="969.83624"
+       id="text3961-1"
+       sodipodi:linespacing="0%"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065"
+       transform="scale(1.0514701,0.95104939)"><tspan
+         sodipodi:role="line"
+         id="tspan3963-4"
+         x="266.29382"
+         y="969.83624"
+         style="font-size:108.18321228000000644px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:0%;letter-spacing:0.33328012000000001px;word-spacing:19.98347281999999936px;fill:#ffffff;fill-opacity:0.92941176000000003;font-family:Merienda;-inkscape-font-specification:Merienda">Harbur<tspan
+   style="fill:#ffffff"
+   id="tspan3028-0" /></tspan></text>
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;display:inline"
+       d="m 147.05157,899.20444 c -9.39255,0.9556 -18.24286,10.8125 -21.66502,15.5635 -0.0967,0.1667 0.0102,1.8245 0.24048,4.0572 0.75723,-1.0479 1.7629,-2.3472 2.98865,-3.7352 1.24313,-1.4076 2.69856,-2.9064 4.31698,-4.3578 0.80922,-0.7256 1.65916,-1.4464 2.54208,-2.1252 0.88293,-0.6788 1.79354,-1.3171 2.73676,-1.9105 0.94322,-0.5935 1.91842,-1.1405 2.9085,-1.61 0.99012,-0.4696 1.99949,-0.8736 3.02303,-1.1807 1.02359,-0.3071 2.05957,-0.5164 3.1032,-0.6225 1.0436,-0.1063 2.08726,-0.1119 3.13752,0.021 1.05025,0.1333 2.10551,0.4044 3.14899,0.8157 1.04347,0.4113 2.0799,0.9681 3.10317,1.6959 1.02329,0.7277 2.03334,1.622 3.02302,2.7048 0.98969,1.0828 1.95442,2.3447 2.89706,3.8211 0.94268,1.4763 1.86598,3.1792 2.74821,5.0876 0.88223,1.9084 1.73371,4.0396 2.54208,6.4186 0.56413,-1.163 1.16052,-2.2034 1.7978,-3.1127 0.63726,-0.9093 1.31296,-1.6917 2.01534,-2.3613 0.70238,-0.6697 1.42767,-1.2302 2.1871,-1.6745 0.75946,-0.4442 1.55042,-0.7759 2.35888,-1.0089 0.80848,-0.233 1.63538,-0.372 2.48485,-0.4078 0.84943,-0.036 1.71694,0.025 2.59933,0.1717 0.88239,0.1469 1.78365,0.3927 2.69096,0.7084 0.90728,0.3157 1.82403,0.7104 2.74818,1.1807 0.92418,0.4702 1.86104,1.0208 2.79403,1.6314 0.93299,0.6106 1.86022,1.2811 2.794,2.0179 1.86753,1.4736 3.73122,3.1944 5.55365,5.0877 1.82242,1.8933 3.61168,3.9613 5.32465,6.1609 1.71296,2.1997 3.3503,4.5198 4.8895,6.9124 0.12702,-1.5547 0.35363,-3.2576 0.69852,-5.0448 0.34484,-1.7872 0.80561,-3.6622 1.40847,-5.5598 0.30144,-0.9488 0.63429,-1.9016 1.00768,-2.8551 0.37337,-0.9536 0.78631,-1.9121 1.23669,-2.8551 0.45038,-0.9431 0.94474,-1.8734 1.47716,-2.7907 0.53241,-0.9172 1.10964,-1.8071 1.72907,-2.6834 0.61945,-0.8762 1.28097,-1.7346 1.99244,-2.5545 0.71148,-0.8199 1.47022,-1.613 2.27873,-2.3613 0.80852,-0.7484 1.66588,-1.4423 2.57642,-2.1038 0.91058,-0.6615 1.868,-1.2867 2.88562,-1.8461 1.01765,-0.5595 2.09945,-1.0607 3.22915,-1.5027 1.1297,-0.4421 2.31442,-0.8283 3.56121,-1.1378 1.24677,-0.3095 2.54732,-0.5468 3.91619,-0.7084 1.36887,-0.1616 2.79808,-0.2376 4.29407,-0.2361 0.0924,0.3705 0.15267,0.7794 0.21757,1.1807 0.0486,-1.9563 -0.0284,-3.7876 -0.40079,-5.2809 -23.93558,-0.024 -31.28671,21.8239 -32.30283,34.2611 -12.31359,-19.1404 -31.21221,-33.9361 -40.23826,-15.3273 -5.6587,-16.6531 -13.29478,-21.2869 -20.60007,-20.5438 z"
+       id="path3028-6-5-4"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065" />
+    <path
+       style="fill:#ffffff;stroke:none;display:inline"
+       d="m 170.1019,909.76614 c 2.7654,-2.0609 14.32075,-4.1707 23.04489,3.4346 l -1e-5,-30.91219 c 1e-5,10.30409 -23.04488,6.86939 -23.04488,17.17349 z"
+       id="path3941-9-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065" />
+    <path
+       style="fill:#ffffff;stroke:none;display:inline"
+       d="m 170.1019,889.15794 c -2e-5,-10.30408 23.04488,-6.86939 23.04489,-17.17348 l 0,-10.30407 c 0,10.30407 -23.04491,6.81547 -23.04491,17.17347 z"
+       id="path3943-8-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:none;display:inline"
+       d="m 174.71088,841.08106 c -1e-5,3.43469 -2.30449,6.86936 -2.30449,6.86936 l -2.30448,0 0,20.60817 c -1e-5,-10.30409 23.04488,-6.8694 23.04488,-17.17348 l 1e-5,-3.43467 -2.3045,-2e-5 c 0,0 -2.3045,-3.43467 -2.3045,-6.86938 l -13.82692,2e-5 z"
+       id="path3945-1-7"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+       d="m 174.71087,837.63754 c 0,-3.43469 -2.30449,-6.86938 -2.30449,-6.86938 l 9.21797,-6.86938 9.21794,6.86938 c 0,0 -2.30447,3.43469 -2.30447,6.86938 z"
+       id="path3947-2-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+       d="m 125.93333,846.67772 46.89751,-7.55885 0,-1.58943 -46.89751,-8.00267 z"
+       id="path3873-35-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none;display:inline"
+       d="m 238.43858,846.67772 -48.17752,-7.55885 0,-1.58943 48.17752,-8.00267 z"
+       id="path3873-3-2-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="/home/spiddy/UX/Harbur Logo/White/LogoText/Harbur-197x40.png"
+       inkscape:export-xdpi="31.235065"
+       inkscape:export-ydpi="31.235065" />
+  </g>
+</svg>
