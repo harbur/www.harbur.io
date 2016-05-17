@@ -302,36 +302,6 @@ span.middot {
 	color: rgba(0,0,0,0.1);
 }
 
-/* MOVING BG -  TESTIMONIALS */
-.bganimate {
-	-webkit-animation:BgAnimated 30s infinite linear;
-	 -moz-animation:BgAnimated 30s infinite linear;
-		-ms-animation:BgAnimated 30s infinite linear;
-		 -o-animation:BgAnimated 30s infinite linear;
-			animation:BgAnimated 30s infinite linear;
-}
- @-webkit-keyframes BgAnimated {
-	from  {background-position:0 0;}
-	to    {background-position:0 400px;}
-	}
- @-moz-keyframes BgAnimated {
-	from  {background-position:0 0;}
-	to    {background-position:0 400px;}
-	}
- @-ms-keyframes BgAnimated {
-	from  {background-position:0 0;}
-	to    {background-position:0 400px;}
-	}
- @-o-keyframes BgAnimated {
-	from  {background-position:0 0;}
-	to    {background-position:0 400px;}
-	}
- @keyframes BgAnimated {
-	from  {background-position:0 0;}
-	to    {background-position:0 400px;}
-	}
-
-
 .input-block-level {
 	display: block;
 	width: 100% !important;
@@ -5290,7 +5260,10 @@ body:not(.device-touch) .entry-link {
 /* Individual Post
 -----------------------------------------------------------------*/
 
-.ipost .entry-image img { border-radius: 0; }
+.ipost .entry-image img {
+	border-radius: 5px;
+	max-height: 180px;
+}
 
 .ipost .entry-title h3,
 .ipost .entry-title h4 {
@@ -11900,14 +11873,6 @@ label.checkbox { padding-left: 20px; }
 /* ----------------------------------------------------------------
 	Page Transitions
 -----------------------------------------------------------------*/
-
-body:not(.no-transition) #wrapper,
-.animsition-overlay {
-	position: relative;
-	opacity: 0;
-	-webkit-animation-fill-mode: both;
-	animation-fill-mode: both;
-}
 
 .css3-spinner {
 	position: fixed;
