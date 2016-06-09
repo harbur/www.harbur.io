@@ -15,7 +15,11 @@
 	border-bottom: 2px solid #F5F5F5;
 }
 
-.entry-image { margin-bottom: 30px; }
+.entry-image {
+	margin-bottom: 30px;
+	height: 180px;
+}
+
 
 .entry-image,
 .entry-image > a,
@@ -24,7 +28,6 @@
 	display: block;
 	position: relative;
 	width: 100%;
-	height: auto;
 }
 
 .entry-image iframe { display: block; }

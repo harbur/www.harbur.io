@@ -35,12 +35,15 @@
 
 <script type="text/javascript">
     function createNew(el, index) {
+        'use strict';
+
         var template = document.querySelector('#newstemplate');
         var title = el.find("title").text();
         var imageUrl = el.find('media\\:content, content').attr('url');
         var pubDate = el.find("pubDate").text();
         var link = el.find("link").text();
         var description = el.find("description").text();
+        description = $(description).html(description).find('p').slice(0, 2).text();
 
         template.content.querySelector('img').src = imageUrl;
         template.content.querySelector('.entry-title-link').href = link;
@@ -65,7 +68,7 @@
             },
             dataType:"xml",
             success:function(data) {
-                $(data).find("item").each(function (index) {
+                $(data).find("item").slice(0, 3).each(function (index) {
                     createNew($(this), index);
                 });
             }
