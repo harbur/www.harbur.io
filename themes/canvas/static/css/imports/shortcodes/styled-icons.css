@@ -76,7 +76,6 @@ body:not(.device-touch) .social-icon {
 }
 
 .i-alt {
-	background-image: url('../../../images/icons/iconalt.svg');
 	background-position: center center;
 	background-size: 100% 100%;
 }
