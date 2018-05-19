@@ -512,7 +512,6 @@
 	padding: 2px;
 	z-index: -1;
 	box-shadow: none;
-	background-image: url('../../../images/icons/iconalt.svg');
 	background-position: center center;
 	background-size: 100% 100%;
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s, background-color 0.5s;
