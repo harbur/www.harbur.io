@@ -1,10 +1,6 @@
-
-/*-----------------------------------------------------------------------------------
-
-    typography.css
-
------------------------------------------------------------------------------------*/
-
+/* ----------------------------------------------------------------
+	1. Basic
+-----------------------------------------------------------------*/
 
 dl, dt, dd, ol, ul, li {
 	margin: 0;
@@ -44,7 +40,7 @@ dl, dt, dd, ol, ul, li {
 
 
 /* ----------------------------------------------------------------
-	Typography
+	2. Typography
 -----------------------------------------------------------------*/
 
 
@@ -69,7 +65,7 @@ iframe { border: none !important; }
 
 
 /* ----------------------------------------------------------------
-	Basic Layout Styles
+	3. Basic Layout Styles
 -----------------------------------------------------------------*/
 
 
@@ -106,12 +102,12 @@ h4 { font-weight: 600; }
 h5,
 h6 { font-weight: bold; }
 
-h1 > span:not(.nocolor),
-h2 > span:not(.nocolor),
-h3 > span:not(.nocolor),
-h4 > span:not(.nocolor),
-h5 > span:not(.nocolor),
-h6 > span:not(.nocolor) { color: #1ABC9C; }
+h1 > span:not(.nocolor):not(.badge),
+h2 > span:not(.nocolor):not(.badge),
+h3 > span:not(.nocolor):not(.badge),
+h4 > span:not(.nocolor):not(.badge),
+h5 > span:not(.nocolor):not(.badge),
+h6 > span:not(.nocolor):not(.badge) { color: #1ABC9C; }
 
 p,
 pre,
@@ -126,6 +122,7 @@ fieldset,
 form { margin-bottom: 30px; }
 
 small { font-family: 'Lato', sans-serif; }
+
 
 #wrapper {
 	position: relative;

@@ -7,7 +7,7 @@
 
 
 /* ----------------------------------------------------------------
-	Sections
+	5. Sections
 -----------------------------------------------------------------*/
 
 
@@ -50,19 +50,19 @@
 
 
 /* ----------------------------------------------------------------
-	Columns & Grids
+	6. Columns & Grids
 -----------------------------------------------------------------*/
 
 
-.postcontent { width: 860px; }
-.postcontent.bothsidebar { width: 580px; }
-.sidebar { width: 240px; }
 .col_full { width: 100%; }
-.col_half { width: 48%; }
+.col_half,
+.postcontent.bothsidebar { width: 48%; }
 .col_one_third { width: 30.63%; }
 .col_two_third { width: 65.33%; }
-.col_one_fourth { width: 22%; }
-.col_three_fourth { width: 74%; }
+.col_one_fourth,
+.sidebar { width: 22%; }
+.col_three_fourth,
+.postcontent { width: 74%; }
 .col_one_fifth { width: 16.8%; }
 .col_two_fifth { width: 37.6%; }
 .col_three_fifth { width: 58.4%; }
@@ -96,19 +96,14 @@ body.stretched .container-fullwidth {
 	float: left;
 }
 
-.postcontent,
-.sidebar { margin-right: 40px; }
-
 .col_full {
 	clear: both;
 	float: none;
 	margin-right: 0;
 }
 
-.postcontent.col_last,
-.sidebar.col_last { float: right; }
-
 .col_last {
 	margin-right: 0 !important;
+	float: right;
 	clear: right;
 }

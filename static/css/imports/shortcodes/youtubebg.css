@@ -39,7 +39,7 @@
 
 .mbYTP_wrapper iframe { max-width: 4000px !important; }
 
-.inline_YTPlayer {
+.inline-YTPlayer {
 	margin-bottom: 20px;
 	vertical-align:top;
 	position:relative;
@@ -52,7 +52,7 @@
 	background: rgba(0,0,0,.5);
 }
 
-.inline_YTPlayer img {
+.inline-YTPlayer img {
 	border: none!important;
 	-moz-transform: none!important;
 	-webkit-transform: none!important;

@@ -13,6 +13,8 @@
 	border-bottom: 3px solid #EEE;
 }
 
+.events .entry:after { display: none !important; }
+
 .events .entry-image .entry-date,
 .ievent .entry-image .entry-date {
 	position: absolute;
@@ -24,7 +26,7 @@
 	width: 60px;
 	height: 64px;
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 9px;
 	font-size: 26px;
 	line-height: 1;
 }
@@ -32,8 +34,8 @@
 .events .entry-image .entry-date span,
 .ievent .entry-image .entry-date span {
 	display: block;
-	font-size: 15px;
-	margin-top: 5px;
+	font-size: 12px;
+	margin-top: 7px;
 }
 
 .events .entry-c,
@@ -62,6 +64,9 @@
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 	z-index: 5;
 }
+
+.single-event .col_full .entry-overlay,
+.single-event .col_three_fourth .entry-overlay { position: relative; }
 
 .single-event .countdown {
 	display: inline-block;

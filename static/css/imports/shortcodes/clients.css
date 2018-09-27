@@ -23,6 +23,7 @@
 	position: relative;
 	width: 20%;
 	padding: 20px 0;
+	-webkit-backface-visibility: hidden;
 }
 
 .clients-grid.grid-2 li {

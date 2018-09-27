@@ -46,12 +46,12 @@
 	-webkit-tap-highlight-color:transparent;
 	position:relative;
 	z-index:1;
-	-webkit-backface-visibility: hidden;
+	width: 100%;
 }
 
 .owl-carousel .owl-stage {
 	position:relative;
-	-ms-touch-action:pan-Y
+	-ms-touch-action: pan-Y;
 }
 
 .owl-carousel .owl-stage:after {
@@ -66,24 +66,7 @@
 .owl-carousel .owl-stage-outer {
 	position:relative;
 	overflow:hidden;
-	-webkit-transform:translate3d(0px,0,0);
-	cursor:move;
-	cursor:-webkit-grab;
-	cursor:-o-grab;
-	cursor:-ms-grab;
-	cursor:grab
-}
-
-.owl-carousel .owl-controls .owl-dot,
-.owl-carousel .owl-controls .owl-nav .owl-next,
-.owl-carousel .owl-controls .owl-nav .owl-prev {
-	cursor:pointer;
-	cursor:hand;
-	-webkit-user-select:none;
-	-khtml-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none
+	-webkit-transform:translate3d(0,0,0);
 }
 
 .owl-carousel.owl-loaded { display:block }
@@ -91,24 +74,17 @@
 .owl-carousel.owl-loading {
 	display:block;
 	min-height: 100px;
-	background: url('../../../images/preloader.gif') no-repeat center center
+	background: url('images/preloader.gif') no-repeat center center
 }
-
-.owl-carousel.owl-hidden { opacity:0 }
 
 .owl-carousel .owl-refresh .owl-item { display:none }
 
 .owl-carousel .owl-item {
-	position:relative;
-	min-height:1px;
-	float:left;
-	-webkit-backface-visibility:hidden;
-	-webkit-tap-highlight-color:transparent;
-	-webkit-touch-callout:none;
-	-webkit-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none
+	position: relative;
+	min-height: 1px;
+	float: left;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-touch-callout: none;
 }
 
 .owl-carousel .owl-item img {
@@ -117,28 +93,56 @@
 	-webkit-transform-style:preserve-3d;
 }
 
-#slider .owl-carousel .owl-item img { -webkit-backface-visibility: hidden; }
+#slider .owl-carousel .owl-item img { -webkit-transform-style: preserve-3d; }
 
-.owl-carousel.owl-text-select-on .owl-item {
-	-webkit-user-select:auto;
-	-moz-user-select:auto;
-	-ms-user-select:auto;
-	user-select:auto
+.owl-carousel .owl-nav.disabled, .owl-carousel .owl-dots.disabled { display: none; }
+
+.owl-nav .owl-prev,
+.owl-nav .owl-next,
+.owl-dot,
+.owl-dots button {
+	cursor: pointer;
+	cursor: hand;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
-.owl-carousel .owl-grab {
-	cursor:move;
-	cursor:-webkit-grab;
-	cursor:-o-grab;
-	cursor:-ms-grab;
-	cursor:grab
+.owl-carousel.owl-loaded { display: block; }
+
+.owl-carousel.owl-loading {
+	opacity: 0;
+	display: block;
 }
 
-.owl-carousel.owl-rtl { direction:rtl }
+.owl-carousel.owl-hidden { opacity: 0; }
 
-.owl-carousel.owl-rtl .owl-item { float:right }
+.mega-menu-content .owl-carousel.owl-hidden { opacity: 1; }
 
-.no-js .owl-carousel { display:block }
+.owl-carousel.owl-refresh .owl-item { display: none; }
+
+.owl-carousel.owl-drag .owl-item {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.owl-carousel.owl-grab {
+	cursor: move;
+	cursor: -webkit-grab;
+	cursor: -o-grab;
+	cursor: -ms-grab;
+	cursor: grab;
+}
+
+.owl-carousel.owl-rtl { direction: rtl; }
+
+.owl-carousel.owl-rtl .owl-item { float: right; }
+
+.no-js .owl-carousel { display: block; }
 
 .owl-carousel .owl-item .owl-lazy {
 	opacity:0;
@@ -163,7 +167,7 @@
 	top: 50%;
 	margin-left: -32px;
 	margin-top: -32px;
-	background: url("../../../images/icons/play.png") no-repeat;
+	background: url("../../images/icons/play.png") no-repeat;
 	cursor: pointer;
 	z-index: 1;
 	-webkit-backface-visibility: hidden;
@@ -197,22 +201,26 @@
 
 .owl-carousel .owl-video-frame {
 	position:relative;
-	z-index:1
+	z-index:1;
+	height: 100%;
+	width: 100%;
 }
 
 
 /* Owl Carousel - Controls
 -----------------------------------------------------------------*/
 
-.owl-theme .owl-controls {
+.owl-carousel .owl-dots,
+.owl-carousel .owl-nav {
 	text-align: center;
 	-webkit-tap-highlight-color: transparent;
+	line-height: 1;
 }
 
 /* Owl Carousel - Controls - Arrows
 -----------------------------------------------------------------*/
 
-.owl-theme .owl-controls .owl-nav [class*=owl-] {
+.owl-carousel .owl-nav [class*=owl-] {
 	position: absolute;
 	top: 50%;
 	margin-top: -18px;
@@ -232,9 +240,10 @@
 	transition: all .3s ease;
 }
 
-.owl-theme .owl-controls.with-carousel-dots .owl-nav [class*=owl-] { margin-top: -39px; }
+.owl-carousel.with-carousel-dots .owl-nav [class*=owl-] { margin-top: -38px; }
 
-.owl-carousel-full .owl-controls .owl-nav [class*=owl-] {
+.slider-element .owl-nav [class*=owl-],
+.owl-carousel-full .owl-nav [class*=owl-] {
 	margin-top: -30px;
 	left: 0 !important;
 	height: 60px;
@@ -246,49 +255,50 @@
 	border-radius: 0 3px 3px 0;
 }
 
-.owl-carousel-full .owl-controls.with-carousel-dots .owl-nav [class*=owl-] { margin-top: -46px; }
+.owl-carousel-full .with-carousel-dots .owl-nav [class*=owl-] { margin-top: -50px; }
 
-.owl-theme .owl-controls .owl-nav .owl-next {
+.owl-carousel  .owl-nav .owl-next {
 	left: auto;
 	right: -36px;
 }
 
-.owl-carousel-full .owl-controls .owl-nav .owl-next {
+.slider-element .owl-nav .owl-next,
+.owl-carousel-full  .owl-nav .owl-next {
 	left: auto !important;
 	right: 0 !important;
 	border-radius: 3px 0 0 3px;
 }
 
-.owl-theme:hover .owl-controls .owl-nav [class*=owl-] {
+.owl-carousel:hover .owl-nav [class*=owl-] {
 	opacity: 1;
 	left: -18px;
 }
 
-.owl-theme:hover .owl-controls .owl-nav .owl-next {
+.owl-carousel:hover .owl-nav .owl-next {
 	left: auto;
 	right: -18px;
 }
 
-.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+.owl-carousel .owl-nav [class*=owl-]:hover {
 	background-color: #1ABC9C !important;
 	color: #FFF !important;
 	text-decoration: none;
 }
 
-.owl-theme .owl-controls .owl-nav .disabled { display: none !important; }
+.owl-carousel .owl-nav .disabled { display: none !important; }
 
 
 /* Owl Carousel - Controls - Dots
 -----------------------------------------------------------------*/
 
-.owl-theme .owl-dots .owl-dot {
+.owl-carousel .owl-dots .owl-dot {
 	display: inline-block;
 	zoom: 1;
 	margin-top: 30px;
 	*display: inline;
 }
 
-.owl-theme .owl-dots .owl-dot span {
+.owl-carousel .owl-dots .owl-dot {
 	display: block;
 	width: 8px;
 	height: 8px;
@@ -301,5 +311,5 @@
 	transition: all .3s ease;
 }
 
-.owl-theme .owl-dots .owl-dot.active span,
-.owl-theme .owl-dots .owl-dot:hover span { opacity: 1; }
+.owl-carousel .owl-dots .owl-dot.active span,
+.owl-carousel .owl-dots .owl-dot:hover span { opacity: 1; }

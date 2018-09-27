@@ -512,6 +512,7 @@
 	padding: 2px;
 	z-index: -1;
 	box-shadow: none;
+	background-image: url('../../../images/icons/iconalt.svg');
 	background-position: center center;
 	background-size: 100% 100%;
 	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s, background-color 0.5s;
@@ -582,3 +583,44 @@
 }
 
 .feature-box.media-box.fbox-bg .fbox-media img { border-radius: 5px 5px 0 0; }
+
+/* ----------------------------------------------------------------
+	Flipbox
+-----------------------------------------------------------------*/
+
+.flipbox { perspective: 1000px; }
+
+.flipbox-inner {
+	transition: 0.5s;
+	transition-timing-function: ease;
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+.flipbox-front,
+.flipbox-back {
+	-webkit-backface-visibility: hidden;
+}
+
+.flipbox-front { z-index: 2; }
+
+.flipbox-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.flipbox:not(.flipbox-vertical) .flipbox-front { transform: rotateY(0deg); }
+.flipbox:not(.flipbox-vertical) .flipbox-back { transform: rotateY(-180deg); }
+
+.flipbox.flipbox-vertical .flipbox-front { transform: rotateX(0deg); }
+.flipbox.flipbox-vertical .flipbox-back { transform: rotateX(-180deg); }
+
+.flipbox:not(.flipbox-vertical):hover .flipbox-inner,
+.flipbox:not(.flipbox-vertical).hover .flipbox-inner { transform: rotateY(180deg); }
+
+.flipbox.flipbox-vertical:hover .flipbox-inner,
+.flipbox.flipbox-vertical.hover .flipbox-inner { transform: rotateX(180deg); }
+

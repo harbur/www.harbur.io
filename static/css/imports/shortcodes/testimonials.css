@@ -15,6 +15,8 @@
 	padding: 25px;
 }
 
+.testimonials-grid.grid-1 li { width: 100%; }
+
 .testimonials-grid.grid-3 li { width: 33.33%; }
 
 .testimonials-grid li .testimonial {

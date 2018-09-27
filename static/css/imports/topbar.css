@@ -6,7 +6,7 @@
 
 
 /* ----------------------------------------------------------------
-	Top Bar
+	9. Top Bar
 -----------------------------------------------------------------*/
 
 
@@ -22,9 +22,8 @@
 #top-bar .col_half { width: auto; }
 
 
-/* ----------------------------------------------------------------
-	Top Links
------------------------------------------------------------------*/
+/* Top Links
+---------------------------------*/
 
 
 .top-links {
@@ -51,20 +50,17 @@
 	display: block;
 	padding: 0 12px;
 	font-size: 12px;
-	font-weight: 600;
+	font-weight: 700;
 	text-transform: uppercase;
 	height: 44px;
 	color: #666;
 }
 
-.top-links li i {
-	position: relative;
-	top: 1px;
-}
+.top-links li i { vertical-align: top; }
 
-.top-links li i.icon-angle-down { margin: 0 0 0 2px !important; }
+.top-links li i.icon-angle-down { margin: 0 0 0 5px !important; }
 
-.top-links li i:first-child { margin-right: 2px; }
+.top-links li i:first-child { margin-right: 3px; }
 
 .top-links li.full-icon i {
 	top: 2px;
@@ -145,8 +141,7 @@
 }
 
 
-/* ----------------------------------------------------------------
-	Top Social
+/* Top Social
 -----------------------------------------------------------------*/
 
 #top-social,
@@ -191,8 +186,7 @@
 }
 
 
-/* ----------------------------------------------------------------
-	Top Login
+/* Top Login
 -----------------------------------------------------------------*/
 
 #top-login { margin-bottom: 0; }

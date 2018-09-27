@@ -86,13 +86,20 @@
 	margin: 5px 0 5px 25px;
 }
 
-.iconlist > li [class^="icon-"]:first-child, .iconlist > li [class*=" icon-"]:first-child {
+.iconlist > li [class^="icon-"]:first-child,
+.iconlist > li [class*=" icon-"]:first-child,
+.iconlist > li i.empty-icon {
 	position: absolute;
 	left: -1.75em;
 	width: 1.75em;
 	text-align: center;
 	top: 1px;
 	width: 14px;
+}
+
+.iconlist > li i.empty-icon {
+	top: 0;
+	font-weight: bold;
 }
 
 .iconlist.iconlist-large { font-size: 16px; }

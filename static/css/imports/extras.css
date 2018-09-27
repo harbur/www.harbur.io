@@ -51,12 +51,9 @@
 
 .img-circle { border-radius: 50% !important; }
 
-.pagination > .active > a,
-.pagination > .active > span,
-.pagination > .active > a:hover,
-.pagination > .active > span:hover,
-.pagination > .active > a:focus,
-.pagination > .active > span:focus {
+.page-item.active .page-link,
+.page-link:hover,
+.page-link:focus {
 	color: #FFF !important;
 	background-color: #1ABC9C !important;
 	border-color: #1ABC9C !important;
@@ -66,6 +63,43 @@ label.radio,
 label.checkbox { padding-left: 20px; }
 
 .input-group-lg > .input-group-addon { line-height: 1; }
+
+
+/* ----------------------------------------------------------------
+	Cookie Notification
+-----------------------------------------------------------------*/
+
+#cookie-notification {
+	position: fixed;
+	opacity: 0;
+	top: auto;
+	bottom: -70px;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	line-height: 24px;
+	background-color: #EEE;
+	color: #444;
+	z-index: 99;
+	-webkit-box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px -1px 4px 0px rgba(0,0,0,0.15);
+	-webkit-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	transition: all .4s ease;
+}
+
+#cookie-notification .container {
+	padding-right: 100px;
+	position: relative;
+}
+
+#cookie-notification .cookie-noti-btn {
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: 0;
+}
 
 
 /* ----------------------------------------------------------------
@@ -103,6 +137,7 @@ body:not(.no-transition) #wrapper,
 	background-color: #FFF;
 	-webkit-animation-fill-mode: both;
 	animation-fill-mode: both;
+	-webkit-perspective: 1000;
 }
 
 .css3-spinner > div {
@@ -892,9 +927,9 @@ body:not(.no-transition) #wrapper,
 
 
 .css3-spinner > .css3-spinner-ball-pulse-sync {
-	width: 60px;
+	width: 70px;
 	height: 34px;
-	margin-left: -30px;
+	margin-left: -35px;
 	margin-top: -17px;
 	background-color: transparent !important;
 	-webkit-animation: none;
@@ -1046,5 +1081,33 @@ body:not(.no-transition) #wrapper,
 
   100% {
 	opacity: 0.0; }
+}
+
+/* ----------------------------------------------------------------
+	Datepicker Component
+-----------------------------------------------------------------*/
+
+.datepicker td,
+.datepicker th { padding: 5px; }
+
+/* ----------------------------------------------------------------
+	Star Ratings Component
+-----------------------------------------------------------------*/
+
+.rating-xl { font-size: 3rem !important; }
+
+.rating-lg { font-size: 2.5rem !important; }
+
+.rating-md { font-size: 2rem !important; }
+
+.rating-sm { font-size: 1.75rem !important; }
+
+.rating-xs { font-size: 1.25rem !important; }
+
+.rating-container .star { margin: 0 2px !important; }
+
+.rating-container .filled-stars {
+	-webkit-text-stroke: 0px !important;
+	text-shadow: none !important;
 }
 
