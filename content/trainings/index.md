@@ -1,3 +1,4 @@
 ---
 title: "Trainings"
+type: trainings
 ---
