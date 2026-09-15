@@ -1,0 +1,11 @@
+{
+  "name": "www-harbur-io",
+  "compatibility_date": "2026-09-15",
+  // No Worker script: asset requests are free and unmetered.
+  "assets": {
+    "directory": "./public",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  },
+  "routes": [{ "pattern": "www.harbur.io", "custom_domain": true }]
+}
