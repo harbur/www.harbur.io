@@ -1,0 +1,17 @@
+{
+  "last_audited": "2026-09-18",
+  "skill_commit": "ba74b0c744f8ddfddc40ff91311f0cf2ec0fe696",
+  "proposed": [
+    {
+      "gap": "missing-renovate-json",
+      "pr": null,
+      "status": "open",
+      "date": "2026-09-18"
+    }
+  ],
+  "open_gaps": [
+    "stray-jenkinsfile: a Jenkinsfile at the repo root (agent { dockerfile true }, runs `hugo`, then pushes public/** to a GCS bucket on the master branch) sits alongside a working .github/workflows/build-deploy.yml that already builds the Hugo site and deploys it via wrangler to Cloudflare Workers static assets, matching skills/infra-deploy/SKILL.md's static-sites convention (GitHub Actions -> wrangler, no separate deploy step by hand). The Jenkinsfile's GCS-bucket deploy path looks superseded rather than still in active use, but that needs confirming (is Jenkins still wired up / is the GCS bucket still serving traffic anywhere) before removing it - left as an open gap rather than guessed at, the same way harbur/infra's ledger left a similar netlify.toml-vs-GitHub-Actions question unresolved.",
+    "static-site-not-nextjs: skills/infra-deploy/SKILL.md's Static sites section describes the reference implementation in Next.js terms (output: 'export', next.config.js, next-sitemap in postbuild), but this site is Hugo (config.toml, archetypes/, layouts/) predating that convention. The Cloudflare Workers static-assets deployment shape itself (wrangler.jsonc, www canonical custom domain, single GitHub Actions workflow) already matches; only the underlying site generator differs. Migrating a working Hugo site to Next.js purely for framework consistency is a large, invasive rewrite with no functional benefit - not implementable as a small coherent PR, flagging for awareness only."
+  ],
+  "clean": false
+}
